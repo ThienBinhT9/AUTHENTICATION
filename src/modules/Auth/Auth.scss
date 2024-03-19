@@ -1,0 +1,59 @@
+.wrapper-auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 42px 0;
+}
+
+.inner-auth{
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0 0 2px #cbcbcb;
+    padding: 12px;
+    gap: 12px;
+    min-width: 650px;
+}
+
+.logo{
+
+}
+
+.auth-form{
+    flex: 1;
+    // position: relative;
+
+    .non-form{
+        margin-bottom: 12px;
+
+        .form__label{
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .form__input, .form__select{
+            width: 100%;
+            padding: 6px 12px;
+        }
+
+        .form__message{
+            font-size: 12px;
+            color: red;
+        }
+    }
+
+    .non-btns{
+        
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 12px;
+    }
+
+    .form-err-message{
+        color: red;
+        margin-bottom: 24px;
+    }
+}
